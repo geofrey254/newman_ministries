@@ -1,15 +1,16 @@
 import React from 'react'
 import './styles.css'
-import Navbar from '@/components/Homepage/Navigation/Navbar'
-import Footer from '@/components/Homepage/Navigation/Footer'
+import Navbar from '@/components/Navigation/Navbar'
+import Footer from '@/components/Navigation/Footer'
 
 // google fonts
-import { Barlow_Semi_Condensed } from 'next/font/google'
+import { Fira_Sans_Condensed } from 'next/font/google'
 
-const barlow = Barlow_Semi_Condensed({
+
+const fira = Fira_Sans_Condensed({
   subsets: ['latin'],
   weight: ['300', '400', '500', '600', '700', '800', '900'],
-  variable: '--font-barlow',
+  variable: '--font-fira',
 })
 
 export const metadata = {
@@ -22,7 +23,7 @@ export default async function RootLayout(props: { children: React.ReactNode }) {
 
   return (
     <html lang="en">
-      <body className={`${barlow.className} font-sans bg-white text-black dark:bg-black dark:text-white`}>
+      <body className={`${fira.className} font-sans bg-white text-black dark:bg-black dark:text-white`}>
         <main>
           <Navbar />
           {children}

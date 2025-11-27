@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaMapMarkerAlt, FaGlobe } from 'react-icons/fa'
-import { FiPhoneCall } from 'react-icons/fi'
 import { IoMdMailUnread } from 'react-icons/io'
+import { FaPhoneAlt } from "react-icons/fa";
 import Image from 'next/image'
 
 export default function Footer() {
@@ -28,37 +28,37 @@ export default function Footer() {
           {/* Address */}
           <div className="flex flex-col items-center sm:items-start text-center sm:text-left">
             <div className="flex items-center gap-3 mb-3">
-              <FaMapMarkerAlt className="text-2xl bg-[#243061] text-[#fffff6] p-1.5 rounded-full shrink-0" />
-              <h3 className="font-semibold text-sm uppercase tracking-wide">Our Address</h3>
+              <FaMapMarkerAlt className="text-2xl md:text-4xl bg-[#243061] text-[#fffff6] p-1.5 rounded-full shrink-0" />
+              <h3 className="font-semibold text-sm md:text-lg uppercase tracking-wide">Our Address</h3>
             </div>
-            <p className="text-sm leading-relaxed ml-0 sm:ml-10">123 Faith Avenue, Nairobi, Kenya</p>
+            <p className="text-sm md:text-lg leading-relaxed ml-0 sm:ml-10">123 Faith Avenue, Nairobi, Kenya</p>
           </div>
 
           {/* Phone */}
           <div className="flex flex-col items-center sm:items-start text-center sm:text-left">
             <div className="flex items-center gap-3 mb-3">
-              <FiPhoneCall className="text-2xl bg-[#243061] text-[#fffff6] p-1.5 rounded-full shrink-0" />
-              <h3 className="font-semibold text-sm uppercase tracking-wide">Call Us</h3>
+              <FaPhoneAlt className="text-2xl md:text-4xl bg-[#243061] text-[#fffff6] p-1.5 rounded-full shrink-0" />
+              <h3 className="font-semibold text-sm md:text-lg uppercase tracking-wide">Call Us</h3>
             </div>
-            <p className="text-sm leading-relaxed ml-0 sm:ml-10">+254 707 019270</p>
+            <p className="text-sm md:text-lg leading-relaxed ml-0 sm:ml-10">+254 707 019270</p>
           </div>
 
           {/* Email */}
           <div className="flex flex-col items-center sm:items-start text-center sm:text-left">
             <div className="flex items-center gap-3 mb-3">
-              <IoMdMailUnread className="text-2xl bg-[#243061] text-[#fffff6] p-1.5 rounded-full shrink-0" />
-              <h3 className="font-semibold text-sm uppercase tracking-wide">Email Us</h3>
+              <IoMdMailUnread className="text-2xl md:text-4xl bg-[#243061] text-[#fffff6] p-1.5 rounded-full shrink-0" />
+              <h3 className="font-semibold text-sm md:text-lg uppercase tracking-wide">Email Us</h3>
             </div>
-            <p className="text-sm leading-relaxed ml-0 sm:ml-10 break-all">info@newmanministries.org</p>
+            <p className="text-sm md:text-lg leading-relaxed ml-0 sm:ml-10 break-all">info@newmanministries.org</p>
           </div>
 
           {/* Website */}
           <div className="flex flex-col items-center sm:items-start text-center sm:text-left">
             <div className="flex items-center gap-3 mb-3">
-              <FaGlobe className="text-2xl bg-[#243061] text-[#fffff6] p-1.5 rounded-full shrink-0" />
-              <h3 className="font-semibold text-sm uppercase tracking-wide">Visit Us</h3>
+              <FaGlobe className="text-2xl md:text-4xl bg-[#243061] text-[#fffff6] p-1.5 rounded-full shrink-0" />
+              <h3 className="font-semibold text-sm md:text-lg uppercase tracking-wide">Visit Us</h3>
             </div>
-            <p className="text-sm leading-relaxed ml-0 sm:ml-10 break-all">www.newmanministries.org</p>
+            <p className="text-sm md:text-lg leading-relaxed ml-0 sm:ml-10 break-all">www.newmanministries.org</p>
           </div>
         </div>
 
