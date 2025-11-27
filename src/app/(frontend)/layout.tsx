@@ -1,6 +1,7 @@
 import React from 'react'
 import './styles.css'
 import Navbar from '@/components/Homepage/Navigation/Navbar'
+import Footer from '@/components/Homepage/Navigation/Footer'
 
 // google fonts
 import { Barlow_Semi_Condensed } from 'next/font/google'
@@ -24,7 +25,9 @@ export default async function RootLayout(props: { children: React.ReactNode }) {
       <body className={`${barlow.className} font-sans bg-white text-black dark:bg-black dark:text-white`}>
         <main>
           <Navbar />
-          {children}</main>
+          {children}
+          <Footer />
+          </main>
       </body>
     </html>
   )
