@@ -4,7 +4,7 @@ import Navbar from '@/components/Navigation/Navbar'
 import Footer from '@/components/Navigation/Footer'
 
 // google fonts
-import { Fira_Sans_Condensed } from 'next/font/google'
+import { Fira_Sans_Condensed, New_Amsterdam } from 'next/font/google'
 
 
 const fira = Fira_Sans_Condensed({
@@ -23,7 +23,7 @@ export default async function RootLayout(props: { children: React.ReactNode }) {
 
   return (
     <html lang="en">
-      <body className={`${fira.className} font-sans bg-white text-black dark:bg-black dark:text-white`}>
+      <body className={`${fira.className} font-sans bg-[#fffff6] text-black dark:bg-black dark:text-white`}>
         <main>
           <Navbar />
           {children}
