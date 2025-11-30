@@ -4,7 +4,7 @@ import Navbar from '@/components/Navigation/Navbar'
 import Footer from '@/components/Navigation/Footer'
 
 // google fonts
-import { Fira_Sans_Condensed, New_Amsterdam } from 'next/font/google'
+import { Fira_Sans_Condensed } from 'next/font/google'
 
 
 const fira = Fira_Sans_Condensed({

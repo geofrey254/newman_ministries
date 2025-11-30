@@ -14,7 +14,7 @@ const satisfy = Satisfy({
 
 export default function About() {
   return (
-    <section className="px-8 py-16 flex flex-col justify-center items-center bg-[#fffff6] w-full relative">
+    <section id='about' className="px-8 py-16 flex flex-col justify-center items-center bg-[#fffff6] w-full relative">
       <div className="max-w-3xl flex justify-center items-center flex-col">
         <div className="flex justify-center items-center gap-2 text-xl text-[#243061]">
           <FaChurch />

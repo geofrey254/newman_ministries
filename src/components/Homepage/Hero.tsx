@@ -57,9 +57,12 @@ export default function Hero() {
 
         {/* scroll down */}
         <div className="absolute bottom-6 md:bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
-          <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center items-center">
-            <IoMdArrowDown className="text-white text-4xl" />
-          </div>
+          <Link href="#about">
+            
+            <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center items-center">
+              <IoMdArrowDown className="text-white text-4xl" />{' '}
+            </div>
+          </Link>
         </div>
       </div>
     </section>
