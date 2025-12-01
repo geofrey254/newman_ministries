@@ -6,6 +6,7 @@ import Stats from '@/components/Homepage/Stats'
 import Sermons from '@/components/Homepage/Sermons'
 import Verse from '@/components/Homepage/Verse'
 import Team from '@/components/Homepage/Team'
+import Socials from '@/components/Homepage/Socials'
 
 export default function page() {
   return (
@@ -17,6 +18,7 @@ export default function page() {
       <Sermons />
       <Verse />
       <Team />
+      <Socials />
     </>
   )
 }
