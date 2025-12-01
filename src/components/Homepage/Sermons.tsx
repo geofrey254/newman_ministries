@@ -68,14 +68,14 @@ export default function Sermons() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl">
           {sermons.map((sermon) => (
             <div key={sermon.id} className="bg-white rounded-br-[80px] overflow-hidden relative">
-              <div className="h-64 bg-gray-200 flex items-center justify-center">
+              <div className="h-72 md:h-64 bg-gray-200 flex items-center justify-center">
                 {sermon.image ? (
                   <Image
                     width={400}
                     height={200}
                     src={sermon.image}
                     alt={sermon.title}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-center"
                   />
                 ) : (
                   <span className="text-gray-500">Sermon Thumbnail</span>

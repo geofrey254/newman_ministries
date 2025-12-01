@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { FiPhoneCall } from 'react-icons/fi'
@@ -33,6 +33,7 @@ export default function Navbar() {
 
   // Nav Links
   const menuItems = [
+    {name: 'Home', link: '/' },
     { name: 'About', link: '/about' },
     { name: 'Events', link: '/programs' },
     { name: 'Sermons', link: '/programs' },

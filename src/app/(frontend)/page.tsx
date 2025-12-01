@@ -8,6 +8,7 @@ import Verse from '@/components/Homepage/Verse'
 import Team from '@/components/Homepage/Team'
 import Socials from '@/components/Homepage/Socials'
 import Contact from '@/components/Homepage/Contact'
+import Newsletter from '@/components/Homepage/Newsletter'
 
 export default function page() {
   return (
@@ -21,6 +22,7 @@ export default function page() {
       <Team />
       <Socials />
       <Contact />
+      <Newsletter />
     </>
   )
 }
