@@ -7,6 +7,7 @@ import Sermons from '@/components/Homepage/Sermons'
 import Verse from '@/components/Homepage/Verse'
 import Team from '@/components/Homepage/Team'
 import Socials from '@/components/Homepage/Socials'
+import Contact from '@/components/Homepage/Contact'
 
 export default function page() {
   return (
@@ -19,6 +20,7 @@ export default function page() {
       <Verse />
       <Team />
       <Socials />
+      <Contact />
     </>
   )
 }
