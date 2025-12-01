@@ -48,7 +48,7 @@ const sermons = [
 
 export default function Sermons() {
   return (
-    <section className='flex items-center justify-center px-8 py-16 bg-[#fffff6]'>
+    <section className='flex items-center justify-center px-4 md:px-8 py-16 bg-[#fffff6]'>
       <div className="flex flex-col justify-center items-center w-full relative">
         <div className="flex justify-center items-center mb-8 text-xl text-[#243061]">
           <h3 className={`${satisfy.className}`}>Our Sermons</h3>

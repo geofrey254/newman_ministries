@@ -6,7 +6,7 @@ import { IoMdArrowForward, IoMdArrowDown } from 'react-icons/io'
 
 export default function Hero() {
   return (
-    <section className="px-8 relative h-[60vh] md:h-screen">
+    <section className="px-4 md:px-8 relative h-[60vh] md:h-screen">
       <div className="absolute inset-0">
         <Image
           src="/BG.jpg"

@@ -4,6 +4,7 @@ import Jumbotron from '@/components/Homepage/Jumbotron'
 import About from '@/components/Homepage/About'
 import Stats from '@/components/Homepage/Stats'
 import Sermons from '@/components/Homepage/Sermons'
+import Verse from '@/components/Homepage/Verse'
 
 export default function page() {
   return (
@@ -13,6 +14,7 @@ export default function page() {
       <About />
       <Stats />
       <Sermons />
+      <Verse />
     </>
   )
 }

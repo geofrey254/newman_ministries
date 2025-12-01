@@ -12,7 +12,7 @@ const satisfy = Satisfy({
 
 export default function Stats() {
   return (
-    <section className="bg-[#243061] px-8 md:px-16 py-16 flex w-full">
+    <section className="bg-[#243061] px-4 md:px-8 py-16 flex w-full">
       <div className="grid grid-cols-12 gap-4 md:gap-8 items-center w-full">
         <div className="col-span-12 md:col-span-7 flex flex-col gap-2 justify-center">
           <div className="flex justify-start items-center gap-2 text-xl text-[#fffff6]">
@@ -62,13 +62,13 @@ export default function Stats() {
             className="rounded-3xl shadow-lg h-[400px] md:h-[550px] object-cover mb-8 md:mb-0 "
           />
 
-            <div className="absolute -top-6 -left-6 bg-[#fffff6] text-[#243061] rounded-full w-16 md:w-24 h-16 md:h-24 flex flex-col justify-center items-center shadow-lg">
+            <div className="absolute -top-4 md:-top-6 -left-2 md:-left-6 bg-[#fffff6] text-[#243061] rounded-full w-24 h-24 flex flex-col justify-center items-center shadow-lg">
               <h3 className="text-xl md:text-3xl font-bold">150+</h3>
               <p className="text-xs text-center w-1/2">Active Members</p>
             </div>
 
-            <div className="absolute -bottom-6 -right-6 bg-[#fffff6] text-[#243061] rounded-full w-24 h-24 flex flex-col justify-center items-center shadow-lg">
-                <h3 className="text-3xl font-bold">25+</h3> 
+            <div className="absolute bottom-0 right-0 md:-bottom-6 md:-right-6 bg-[#fffff6] text-[#243061] rounded-full w-24 h-24 flex flex-col justify-center items-center shadow-lg">
+                <h3 className="text-xl md:text-3xl font-bold">25+</h3> 
                 <p className="text-xs text-center w-1/2">Community Programs</p>
             </div>
         </div>

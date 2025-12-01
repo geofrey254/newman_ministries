@@ -14,7 +14,7 @@ const satisfy = Satisfy({
 
 export default function About() {
   return (
-    <section id='about' className="px-8 py-16 flex flex-col justify-center items-center bg-[#fffff6] w-full relative">
+    <section id='about' className="px-4 md:px-8 py-16 flex flex-col justify-center items-center bg-[#fffff6] w-full relative">
       <div className="max-w-3xl flex justify-center items-center flex-col">
         <div className="flex justify-center items-center gap-2 text-xl text-[#243061]">
           <FaChurch />
@@ -64,24 +64,24 @@ export default function About() {
         </div>
       </div>
       {/* images */}
-      <div className="flex justify-center items-center gap-4 md:gap-0">
-        <div className="md:absolute left-8 top-8 mt-12 mb-12">
+      <div className="flex justify-center items-center gap-8 md:gap-0">
+        <div className="md:absolute left-8 top-8 mt-12 md:mb-12">
           <Image
             src="/worship1.jpg"
             alt="About us image"
             width={220}
             height={80}
-            className="rounded-lg shadow-lg object-cover max-w-full h-auto md:border-4 border-[#fcb129]"
+            className="rounded-lg shadow-lg object-cover max-w-full h-[300px] md:h-auto md:border-4 border-[#fcb129]"
           />
         </div>
 
-        <div className="md:absolute right-8 bottom-8 mt-12 mb-12">
+        <div className="md:absolute right-8 bottom-8 mt-12 md:mb-12">
           <Image
             src="/worship2.jpg"
             alt="About us image"
             width={220}
             height={80}
-            className="rounded-lg shadow-lg object-cover max-w-full h-auto md:border-4 border-[#fcb129]"
+            className="rounded-lg shadow-lg object-cover max-w-full h-[300px] md:h-auto md:border-4 border-[#fcb129]"
           />
       </div>
       </div>
