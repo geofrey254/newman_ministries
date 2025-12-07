@@ -109,7 +109,7 @@ export default function Navbar() {
                   {menuItems.map((item) => (
                     <Link
                       key={item.name}
-                      href="/contact"
+                      href={item.link}
                       className="mx-2 text-[#243061] font-semibold border-b-2 pb-2 border-[#fcb129] cursor-pointer hover:border-b-2 hover:border-[#243061] hover:scale-105 transition-all duration-300"
                     >
                       {item.name}
