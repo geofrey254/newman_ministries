@@ -37,7 +37,6 @@ export default function Navbar() {
     { name: 'About', link: '/about' },
     { name: 'Events', link: '/events' },
     { name: 'Sermons', link: '/sermons' },
-    { name: 'Donate', link: '/donate' },
     { name: 'Contact', link: '/contact' },
   ]
 
@@ -74,14 +73,14 @@ export default function Navbar() {
           {/* right side */}
           <div className="flex gap-2 items-center">
             <Link
-              href="/donate"
+              href="/give"
               className="bg-[#fcb129] px-6 md:px-4 py-2 font-semibold ml-4 rounded-md text-[#fffff6]"
             >
               Give
             </Link>
 
             <Link
-              href="/youtube"
+              href="https://www.youtube.com/@NewmanMinistriesIntl"
               className="hidden px-4 py-2 font-semibold rounded-md md:flex items-center gap-2 border-2 border-[#243061] text-[#243061]"
             >
               <FaYoutube size={20} />

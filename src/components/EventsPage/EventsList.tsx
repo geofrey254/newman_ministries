@@ -57,7 +57,7 @@ export default function EventsList() {
         {events.map((event, index) => (
           <div
             key={index}
-            className="rounded-xl overflow-hidden shadow-md bg-[#104179]/5 border border-[#fcb129] hover:shadow-xl transition-all duration-300"
+            className="rounded-xl overflow-hidden shadow-md bg-[#243061]/5 border border-[#fcb129] hover:shadow-xl transition-all duration-300"
           >
             {/* Image */}
             <div className="h-64 w-full overflow-hidden rounded-b-xl shadow-lg shadow-[#000000]/20 border-b-2 border-[#fcb129]">
@@ -73,17 +73,17 @@ export default function EventsList() {
             {/* Content */}
             <div className="p-6 flex justify-center items-center gap-3">
               <div className="flex flex-col gap-2">
-                <h2 className="flex items-center gap-1 text-[#104179] text-sm">
+                <h2 className="flex items-center gap-1 text-[#243061] text-sm">
                   <span>
                     <IoLocationSharp className="text-[#fcb129]" />
                   </span>
                   {event.country}
                 </h2>
                 <div className="flex items-center justify-between">
-                  <span className="text-[#104179] font-semibold text-xl">{event.date}</span>
+                  <span className="text-[#243061] font-semibold text-xl">{event.date}</span>
                 </div>
 
-                <h3 className="text-xl font-semibold text-[#104179]">{event.title}</h3>
+                <h3 className="text-xl font-semibold text-[#243061]">{event.title}</h3>
                 <p className="text-sm">{event.desc}</p>
               </div>
             </div>
@@ -95,7 +95,7 @@ export default function EventsList() {
       <div className="flex justify-center items-center mt-12">
         <Link
           href="#"
-          className="flex items-center justify-center gap-2 border border-[#104179] text-[#104179] text-xl rounded-xl px-4 py-2 hover:scale-105 transition-transform delay-200"
+          className="flex items-center justify-center gap-2 border border-[#243061] text-[#243061] text-xl rounded-xl px-4 py-2 hover:scale-105 transition-transform delay-200"
         >
           Next Page <GrLinkNext className="-rotate-45" />
         </Link>
