@@ -2,17 +2,17 @@ import React from 'react'
 import Link from 'next/link'
 import { MdNavigateNext } from 'react-icons/md'
 
-export default function EventsHero() {
-  return  (
-    <section className="bg-[url(/events.jpg)] relative flex justify-center items-center h-[20vh] md:h-[40vh] bg-center bg-cover">
+export default function SermonHero() {
+  return (
+    <section className="bg-[url(/sermon.jpg)] relative flex justify-center items-center h-[20vh] md:h-[40vh] bg-center bg-cover">
       <div className="absolute inset-0 bg-[#243061] opacity-60 z-10"></div>
       <div className='z-30'>
-        <h3 className="text-[#fffff6] text-5xl md:text-6xl font-bold">Upcoming Events</h3>
+        <h3 className="text-[#fffff6] text-5xl md:text-6xl font-bold">Sermons & Messages</h3>
         <div className='text-[#fffff6] flex justify-center items-center gap-2 text-lg'>
           <Link href="/">
             Home
           </Link>{' '}
-          <MdNavigateNext /> <h3>Events</h3>
+          <MdNavigateNext /> <h3>Sermons & Messages</h3>
         </div>
       </div>
     </section>
