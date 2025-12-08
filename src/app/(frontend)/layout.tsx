@@ -14,9 +14,10 @@ const fira = Fira_Sans_Condensed({
 })
 
 export const metadata = {
-  description: 'A blank template using Payload in a Next.js app.',
-  title: 'Payload Blank Template',
+  title: 'Newman Ministries International',
+  description: 'Empowering lives through worship, discipleship, outreach, and compassion. Join Newman Ministries International in transforming communities.',
 }
+
 
 export default async function RootLayout(props: { children: React.ReactNode }) {
   const { children } = props

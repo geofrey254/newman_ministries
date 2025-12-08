@@ -9,7 +9,7 @@ export default function Hero() {
     <section className="px-4 md:px-8 relative h-[60vh] md:h-screen">
       <div className="absolute inset-0">
         <Image
-          src="/BG.jpg"
+          src="/bg.jpg"
           alt="Hero Background"
           layout="fill"
           objectFit="cover"
