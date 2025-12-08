@@ -35,8 +35,8 @@ export default function Navbar() {
   const menuItems = [
     {name: 'Home', link: '/' },
     { name: 'About', link: '/about' },
-    { name: 'Events', link: '/programs' },
-    { name: 'Sermons', link: '/programs' },
+    { name: 'Events', link: '/events' },
+    { name: 'Sermons', link: '/sermons' },
     { name: 'Donate', link: '/donate' },
     { name: 'Contact', link: '/contact' },
   ]
