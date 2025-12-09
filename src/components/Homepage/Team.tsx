@@ -61,7 +61,7 @@ export default function Team() {
           <div className="grid grid-cols-2 gap-12">
             {teamMembers.map((member, index) => (
               <div key={index} className="flex flex-col justify-center items-center">
-                <div className="w-50 h-50 md:w-40 md:h-40 overflow-hidden rounded-3xl border-4 border-[#243061]/50 shadow-lg">
+                <div className="w-40 h-50 md:w-40 md:h-40 overflow-hidden rounded-3xl border-4 border-[#243061]/50 shadow-lg">
                   <Image
                     width={320}
                     height={320}
@@ -71,7 +71,7 @@ export default function Team() {
                   />
                 </div>
                 <h4 className="mt-4 text-lg font-semibold text-[#243061]">{member.name}</h4>
-                <p className="text-gray-600">{member.role}</p>
+                <p className="text-gray-600 text-center">{member.role}</p>
               </div>
             ))}
           </div>

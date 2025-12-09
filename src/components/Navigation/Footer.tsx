@@ -26,12 +26,12 @@ export default function Footer() {
         {/* Contact Information Grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 lg:gap-8 mb-12 max-w-6xl mx-auto">
           {/* Address */}
-          <div className="flex flex-col items-center sm:items-start text-center sm:text-left">
+          <div className="flex flex-col items-center sm:items-start text-center md:text-left">
             <div className="flex items-center gap-3 mb-3">
               <FaMapMarkerAlt className="text-2xl md:text-4xl bg-[#243061] text-[#fffff6] p-1.5 rounded-full shrink-0" />
               <h3 className="font-semibold text-sm md:text-lg uppercase tracking-wide">Our Address</h3>
             </div>
-            <p className="text-sm md:text-lg leading-relaxed ml-0 sm:ml-10">123 Faith Avenue, Nairobi, Kenya</p>
+            <p className="text-xs md:text-lg leading-relaxed ml-0 sm:ml-10">123 Faith Avenue, Nairobi, Kenya</p>
           </div>
 
           {/* Phone */}
@@ -40,7 +40,7 @@ export default function Footer() {
               <FaPhoneAlt className="text-2xl md:text-4xl bg-[#243061] text-[#fffff6] p-1.5 rounded-full shrink-0" />
               <h3 className="font-semibold text-sm md:text-lg uppercase tracking-wide">Call Us</h3>
             </div>
-            <p className="text-sm md:text-lg leading-relaxed ml-0 sm:ml-10">+254 707 019270</p>
+            <p className="text-xs md:text-lg leading-relaxed ml-0 sm:ml-10">+254 707 019270</p>
           </div>
 
           {/* Email */}
@@ -49,7 +49,7 @@ export default function Footer() {
               <IoMdMailUnread className="text-2xl md:text-4xl bg-[#243061] text-[#fffff6] p-1.5 rounded-full shrink-0" />
               <h3 className="font-semibold text-sm md:text-lg uppercase tracking-wide">Email Us</h3>
             </div>
-            <p className="text-sm md:text-lg leading-relaxed ml-0 sm:ml-10 break-all">info@newmanministries.org</p>
+            <p className="text-xs md:text-lg leading-relaxed ml-0 sm:ml-10 break-all">info@newmanministries.org</p>
           </div>
 
           {/* Website */}
@@ -58,7 +58,7 @@ export default function Footer() {
               <FaGlobe className="text-2xl md:text-4xl bg-[#243061] text-[#fffff6] p-1.5 rounded-full shrink-0" />
               <h3 className="font-semibold text-sm md:text-lg uppercase tracking-wide">Visit Us</h3>
             </div>
-            <p className="text-sm md:text-lg leading-relaxed ml-0 sm:ml-10 break-all">www.newmanministries.org</p>
+            <p className="text-xs md:text-lg leading-relaxed ml-0 sm:ml-10 break-all">www.newmanministries.org</p>
           </div>
         </div>
 
