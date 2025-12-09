@@ -43,19 +43,19 @@ export default function Navbar() {
   return (
     <>
       {/* top nav */}
-      <div className="bg-[#243061] text-white px-8 py-2 flex justify-between items-center">
-        <h3 className="font-bold text-sm md:text-lg">
+      <div className="bg-[#243061] text-white px-4 md:px-8 py-2 flex justify-between items-center">
+        <h3 className="font-bold text-xs md:text-lg">
           Upcoming Programs: <span className="font-normal">{toSunday()}</span>{' '}
         </h3>
 
-        <div className="flex items-center justify-center gap-4">
-          <FiPhoneCall className="text-xl" />
-          <h4 className="md:text-lg">+254 707 019270</h4>
+        <div className="flex items-center justify-center ml-2 gap-2 md:gap-4">
+          <FiPhoneCall className="text-xs sm:text-lg md:text-xl" />
+          <h4 className="text-xs md:text-lg">+254 707 019270</h4>
         </div>
       </div>
 
       {/* bottom nav */}
-      <nav className="bg-[#fffff6] px-8 py-4">
+      <nav className="bg-[#fffff6] px-4 md:px-8 py-4">
         <div className="flex justify-between items-center">
           <Link href="/">
             <Image src="/logo.png" alt="Newman Logo" width={150} height={50} />

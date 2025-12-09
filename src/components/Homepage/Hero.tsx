@@ -6,7 +6,7 @@ import { IoMdArrowForward, IoMdArrowDown } from 'react-icons/io'
 
 export default function Hero() {
   return (
-    <section className="px-4 md:px-8 relative h-[60vh] md:h-screen">
+    <section className="px-4 md:px-8 relative h-[70vh] lg:h-screen">
       <div className="absolute inset-0">
         <Image
           src="/bg.jpg"
@@ -37,7 +37,7 @@ export default function Hero() {
           Spreading hope, faith, and love through our various programs and initiatives.
         </p>
 
-        <div className="flex justify-center items-center gap-4">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-4">
           <Link
             href="#about"
             className="bg-[#fcb129] hover:bg-[#1e254b] text-white font-semibold py-2 px-0 rounded-full shadow-lg transition duration-300 flex items-center"
@@ -56,7 +56,7 @@ export default function Hero() {
         </div>
 
         {/* scroll down */}
-        <div className="absolute bottom-6 md:bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
+        <div className="absolute bottom-2 sm:bottom-6 md:bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
           <Link href="#about">
             
             <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center items-center">
