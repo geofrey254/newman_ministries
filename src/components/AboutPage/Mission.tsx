@@ -60,7 +60,7 @@ export default function Mission() {
          </div>
          {/* images */}
          <div className="flex justify-center items-center gap-8 md:gap-0">
-           <div className="md:absolute left-8 top-0 mt-12 md:mb-12">
+           <div className="md:absolute left-8 2xl:left-40 top-0 mt-12 md:mb-12">
              <Image
                src="/worship1.jpg"
                alt="About us image"
@@ -70,7 +70,7 @@ export default function Mission() {
              />
            </div>
    
-           <div className="md:absolute right-8 bottom-0 mt-12 md:mb-12">
+           <div className="md:absolute right-8 2xl:right-40 bottom-0 mt-12 md:mb-12">
              <Image
                src="/worship2.jpg"
                alt="About us image"

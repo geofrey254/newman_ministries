@@ -21,6 +21,7 @@ export default buildConfig({
   },
   collections: [Users, Media],
   editor: lexicalEditor(),
+  cors: ['http://192.168.100.9:3000', 'localhost'],
   secret: process.env.PAYLOAD_SECRET || '',
   typescript: {
     outputFile: path.resolve(dirname, 'payload-types.ts'),

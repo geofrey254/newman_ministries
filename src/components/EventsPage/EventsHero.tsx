@@ -4,7 +4,7 @@ import { MdNavigateNext } from 'react-icons/md'
 
 export default function EventsHero() {
   return  (
-    <section className="bg-[url(/events.jpg)] relative flex justify-center items-center h-[20vh] md:h-[40vh] bg-center bg-cover">
+    <section className="bg-[url(/events.jpg)] relative flex justify-center items-center h-[20vh] md:h-[40vh] 2xl:h-[20vh] bg-center bg-cover">
       <div className="absolute inset-0 bg-[#243061] opacity-60 z-10"></div>
       <div className='z-30'>
         <h3 className="text-[#fffff6] text-5xl md:text-6xl font-bold">Upcoming Events</h3>

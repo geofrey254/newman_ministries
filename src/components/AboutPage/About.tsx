@@ -31,7 +31,7 @@ export default function About() {
             width={500}
             height={200}
             alt="About us image"
-            className="rounded-3xl border-6 border-[#243061] md:h-[60vh] md:rotate-6"
+            className="rounded-3xl border-6 border-[#243061] md:h-[60vh] 2xl:h-auto md:rotate-6 2xl:rotate-0"
           />
         </div>
       </div>

@@ -4,7 +4,7 @@ import { RiMailSendFill } from "react-icons/ri";
 export default function Newsletter() {
   return (
     <section>
-      <div className="bg-[url('/prayer.jpg')] bg-cover bg-center bg-fixed relative text-white h-[70vh] md:h-[80vh] flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8">
+      <div className="bg-[url('/prayer.jpg')] bg-cover bg-center bg-fixed relative text-white h-[70vh] md:h-[80vh] 2xl:h-[40vh] flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8">
         <div className="absolute inset-0 bg-linear-to-b from-[#243061]/80 via-[#000000]/30 to-[#000000]/80"></div>
         
         <h2 className='font-light mb-8 text-[#fcb129] z-50 uppercase flex justify-center items-center gap-2'><span><RiMailSendFill size={20}/></span>Subscribe To Our Newsletter</h2>

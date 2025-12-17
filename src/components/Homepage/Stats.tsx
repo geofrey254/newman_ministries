@@ -62,12 +62,12 @@ export default function Stats() {
             className="rounded-3xl shadow-lg h-[400px] md:h-[550px] object-cover mb-8 md:mb-0 "
           />
 
-            <div className="absolute -top-4 md:-top-6 -left-2 md:-left-6 bg-[#fffff6] text-[#243061] rounded-full w-24 h-24 flex flex-col justify-center items-center shadow-lg">
+            <div className="absolute -top-4 md:-top-6 -left-2 md:-left-6 2xl:left-8 bg-[#fffff6] text-[#243061] rounded-full w-24 h-24 flex flex-col justify-center items-center shadow-lg">
               <h3 className="text-xl md:text-3xl font-bold">150+</h3>
               <p className="text-xs text-center w-1/2">Active Members</p>
             </div>
 
-            <div className="absolute bottom-0 right-0 md:-bottom-6 md:-right-6 bg-[#fffff6] text-[#243061] rounded-full w-24 h-24 flex flex-col justify-center items-center shadow-lg">
+            <div className="absolute bottom-0 right-0 md:-bottom-6 md:-right-6 2xl:right-8 bg-[#fffff6] text-[#243061] rounded-full w-24 h-24 flex flex-col justify-center items-center shadow-lg">
                 <h3 className="text-xl md:text-3xl font-bold">25+</h3> 
                 <p className="text-xs text-center w-1/2">Community Programs</p>
             </div>

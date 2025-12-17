@@ -65,23 +65,23 @@ export default function About() {
       </div>
       {/* images */}
       <div className="flex justify-center items-center gap-8 md:gap-0">
-        <div className="md:absolute left-8 top-8 mt-12 md:mb-12">
+        <div className="md:absolute left-8 2xl:left-32 top-8 mt-12 md:mb-12">
           <Image
             src="/worship1.jpg"
             alt="About us image"
             width={220}
             height={80}
-            className="rounded-lg shadow-lg object-cover max-w-full h-[300px] md:h-auto md:border-4 border-[#fcb129]"
+            className="rounded-lg shadow-lg object-cover 2xl:object-top-left max-w-full h-[300px] 2xl:h-[500px] md:h-auto md:border-4 border-[#fcb129]"
           />
         </div>
 
-        <div className="md:absolute right-8 bottom-8 mt-12 md:mb-12">
+        <div className="md:absolute right-8 2xl:right-32 bottom-8 mt-12 md:mb-12">
           <Image
             src="/worship2.jpg"
             alt="About us image"
             width={220}
             height={80}
-            className="rounded-lg shadow-lg object-cover max-w-full h-[300px] md:h-auto md:border-4 border-[#fcb129]"
+            className="rounded-lg shadow-lg object-cover max-w-full h-[300px] 2xl:h-[500px] md:h-auto md:border-4 border-[#fcb129]"
           />
       </div>
       </div>

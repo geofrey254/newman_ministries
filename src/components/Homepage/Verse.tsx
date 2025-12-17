@@ -4,7 +4,7 @@ import { IoMdArrowForward } from 'react-icons/io'
 
 export default function Verse() {
   return (
-    <section className="bg-[url('/pray.jpg')] relative bg-cover bg-top bg-no-repeat md:h-screen flex items-center justify-center px-4 md:px-8 py-16 md:py-16">
+    <section className="bg-[url('/pray.jpg')] relative bg-cover bg-top bg-no-repeat md:h-screen 2xl:h-[60vh] flex items-center justify-center px-4 md:px-8 py-16 md:py-16">
       {/* gradient overlay */}
       <div className="absolute inset-0 bg-linear-to-t from-[#243061] via-[#243061] to-transparent opacity-60"></div>
 
